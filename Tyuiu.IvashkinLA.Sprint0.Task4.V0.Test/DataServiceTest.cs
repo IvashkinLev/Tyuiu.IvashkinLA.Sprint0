@@ -18,7 +18,7 @@ namespace Tyuiu.IvashkinLA.Sprint0.Task4.V0.Test
         [Test]
         public void CheckedSubstractionValid()
         {
-            Assert.That(DataService.Substraction(10, 5), Is.EqualTo(5));
+            Assert.That(DataService.Subtraction(10, 5), Is.EqualTo(5));
         }
 
         [Test]

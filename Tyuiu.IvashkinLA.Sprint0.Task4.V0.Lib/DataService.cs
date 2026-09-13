@@ -7,7 +7,7 @@
             return a + b;
         }
 
-        public static int Substraction(int a, int b)
+        public static int Subtraction(int a, int b)
         {
             return a - b;
         }
