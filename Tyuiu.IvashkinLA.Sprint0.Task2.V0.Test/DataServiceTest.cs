@@ -14,7 +14,7 @@ namespace Tyuiu.IvashkinLA.Sprint0.Task2.V0.Test
         {
             var name = "Лев";
             var res = DataService.GetMessage(name);
-            Assert.AreEqual($"Привет, {name}!", res);
+            Assert.That(res, Is.EqualTo($"Привет, {name}!"));
         }
     }
 }
